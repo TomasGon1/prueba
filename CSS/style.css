@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+header {
+  background-color: #61b644;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#intro-section {
+  background-color: #61b644;
+}
+
+.display-2 {
+  text-transform: capitalize;
+  color: white;
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+.display-2-description {
+  font-size: 1.4rem;
+}
+
+.download__tittle {
+  text-align: center;
+}
+
+.download__logo-box {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+}
+
+.footer-sm {
+  background-color: #212121;
+  color: white;
+}
+
+.footer-botton__copyrigth {
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+}
+
+.footer-botton__copyrigth a {
+  color: gray;
+}
