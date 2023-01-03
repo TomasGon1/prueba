@@ -4,80 +4,85 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/chat-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>Ayuda</title>
   </head>
   <body>
+    <!-- HEADER -->
     <header>
-      <a href="../index.html">
-        <img src="../Images/logoipsum-220.svg" alt="" />
+      <a href="">
+        <img src="../Images/logoipsum-white.svg" alt="Logoipsum App" />
       </a>
       <nav>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.754729357493!2d-58.36753328519408!3d-34.635637966693935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33516c87dd6af%3A0xce23d91e2fd7aa51!2sBombonera!5e0!3m2!1ses-419!2sar!4v1671715225139!5m2!1ses-419!2sar"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
         <ul>
           <li><a href="../index.html">Inicio</a></li>
-          <li><a href="nosotros.html">Nosotros</a></li>
           <li><a href="funciones.html">Funciones</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
           <li><a href="faq.html">FAQ</a></li>
           <li><a href="ayuda.html">Ayuda</a></li>
         </ul>
       </nav>
     </header>
-    <h1>Contactos</h1>
-    <main>
-      <section>
-        <form action="">
-          <fieldset>
-            <legend>Envie su consulta</legend>
-            <div>
-              <label for="nombre">Nobmre:</label>
-              <input type="text" name="nombre" id="nombre" />
-            </div>
-            <div>
-              <label for="apellido">Apellido:</label>
-              <input type="text" name="apellido" id="apellido" />
-            </div>
-            <div>
-              <label for="">Hombre</label>
-              <input type="radio" name="sexo" value="hombre" />
-              <label for="">Mujer</label>
-              <input type="radio" name="sexo" value="mujer" />
-            </div>
-            <div>Acepta los terminos y condiciones</div>
-            <div>
-              <input type="checkbox" name="acepta" id="acepta" value="1" />
-            </div>
-            <div>
-              <label for="">Talle:</label>
-              <select name="talle" id="talle">
-                <option value="L">Large</option>
-                <option value="M">Medium</option>
-                <option value="S">Small</option>
-              </select>
-            </div>
-            <div>
-              <label for="mensaje">Mensaje:</label>
-              <textarea
-                name="mensaje"
-                id="mensaje"
-                cols="30"
-                rows="10"
-              ></textarea>
-            </div>
-            <div>
-              <input type="submit" value="Enviar" />
-              <input type="reset" value="Borrar" />
-            </div>
-          </fieldset>
-        </form>
-      </section>
-    </main>
+    <section>
+      <h1>Ayuda</h1>
+      <form action="">
+        <fieldset>
+          <legend>Contacto</legend>
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Escriba aqui su nombre"
+          />
+          <br />
+          <label for="apellido">Apellido:</label>
+          <input type="text" name="apellido" id="apellido" />
+
+          <div>hombre</div>
+          <input type="radio" name="sexo" value="hombre" />
+          <div>mujer</div>
+          <input type="radio" name="sexo" value="mujer" />
+          <div>Acepta los terminos y condiciones</div>
+          <input type="checkbox" name="acepta" value="1" required />
+          <br />
+          <select name="talle" id="talles">
+            <option value="L">Large</option>
+            <option value="M">Medium</option>
+            <option value="S">Small</option>
+          </select>
+          <br />
+          <label for="mensaje">Mensaje</label>
+          <br />
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+          <br />
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpiar formulario" />
+        </fieldset>
+      </form>
+    </section>
+    <section>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3284.0998790727845!2d-58.3754279!3d-34.6016358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaccf4a5be6f%3A0x97ebb6aac5198f6c!2sCoderhouse!5e0!3m2!1ses-419!2sar!4v1671715437232!5m2!1ses-419!2sar"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <footer>
+      <div>Buscabos en las redes</div>
+      <!-- iconos sociales -->
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <div>
+        &copy; Copyright 2021 <a href="#">Logoipsum</a> | Creada por
+        <a href="https://cgldev.github.io/">CGLDev</a>
+      </div>
+    </footer>
   </body>
 </html>

@@ -4,63 +4,96 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imgs/chat-icon.png" type="image/x-icon" />
 
-    <!-- estilos css -->
+    <!-- CSS Style -->
     <link rel="stylesheet" href="CSS/style.css" />
     <!-- Google fonts -->
     <link
-      href="https: //fonts.googleapis.com/css2? family= Montserrat:wght@900 & display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <!-- logotipo -->
-    <title>Work.Ing</title>
+    <title>Logoipsum App</title>
   </head>
   <body>
-    <!-- Comienza el HEADER -->
+    <!-- Comienzo de HEADER -->
     <header>
-      <a href="index.html">
-        <img src="Images/logoipsum-220.svg" alt="" />
-      </a>
-      <nav>
-        <ul>
-          <li>Inicio</li>
-          <li><a href="Pages/nosotros.html">Nosotros</a></li>
-          <li><a href="Pages/funciones.html">Funciones</a></li>
-          <li><a href="Pages/faq.html">FAQ</a></li>
-          <li><a href="Pages/ayuda.html">Ayuda</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <a href="">
+          <img src="Images/logoipsum-220.svg" alt="Logoipsum App" />
+        </a>
+        <nav>
+          <ul class="nav__list">
+            <li><a class="nav__link" href="index.html">Inicio</a></li>
+            <li>
+              <a class="nav__link" href="Pages/funciones.html">Funciones</a>
+            </li>
+            <li>
+              <a class="nav__link" href="Pages/nosotros.html">Nosotros</a>
+            </li>
+            <li><a class="nav__link" href="Pages/faq.html">FAQ</a></li>
+            <li><a class="nav__link" href="Pages/ayuda.html">Ayuda</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-      <section>
+    <section id="intro-section">
+      <div class="container">
         <div>
-          <h1>Destiny 2</h1>
-          <p>
-            Lorem ipsum dolor <span>sit</span> amet consectetur, adipisicing
-            elit. Ex natus fugiat dolorem corrupti aut ipsam incidunt dolor
-            sequi non mollitia culpa tenetur enim, architecto libero
-            reprehenderit illo nemo vero laboriosam.
-          </p>
+          <h1 class="display-2">
+            <span class="display-2-intro">Logoipsum App</span>
+            <span class="display-2-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nemo
+              sit eligendi hic ipsam? Delectus eius fugiat corporis at. Nobis.
+            </span>
+          </h1>
         </div>
         <div>
-          <img src="" alt="" />
+          <img src="Images/app.png" alt="" />
         </div>
-      </section>
-      <section>
-        <h2>Armas Legendarias</h2>
-        <!-- imagenes -->
-        <div>
-          <img src="" alt="" />
+      </div>
+    </section>
+    <section id="download">
+      <div class="container">
+        <h2 class="download__tittle">Descargas</h2>
+        <!-- logos de tiendas -->
+        <div class="download__logo-box">
+          <img src="Images/playstore.png" alt="" />
         </div>
-        <div>
-          <img src="" alt="" />
+        <div class="download__logo-box">
+          <img src="Images/app-store.png" alt="" />
         </div>
-      </section>
-    </main>
+        <div class="download__logo-box">
+          <img src="Images/windows.png" alt="" />
+        </div>
+      </div>
+    </section>
     <footer>
-      <div>
-        <h3>Descarganos</h3>
+      <div class="footer-sm">
+        <div class="container">
+          <div class="footer-sm__icons">
+            <div>Buscanos en las redes</div>
+            <!-- iconos sociales -->
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer-bottom__copyright">
+          &copy; Copyright 2021 <a href="#">Logoipsum</a> | Creada por
+          <a href="https://cgldev.github.io/">CGLDev</a>
+        </div>
       </div>
     </footer>
   </body>

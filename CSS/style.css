@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -24,10 +25,15 @@ svg {
 
 header {
   background-color: #61b644;
+  padding: 0.5rem 0;
 }
 
 .nav__list {
   list-style: none;
+}
+
+.nav__item {
+  margin: 0 0 0 1.5rem;
 }
 
 .nav__link {
@@ -38,6 +44,7 @@ header {
 
 #intro-section {
   background-color: #61b644;
+  padding: 8rem 0 0 0;
 }
 
 .display-2 {
@@ -48,18 +55,23 @@ header {
 }
 .display-2-description {
   font-size: 1.4rem;
+  display: inline-block;
 }
 
 .download__tittle {
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .download__logo-box {
   text-align: center;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
 }
 
 footer {
   background-color: black;
+  padding-top: 1rem;
 }
 
 .footer-sm {
@@ -67,10 +79,16 @@ footer {
   color: white;
 }
 
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
 .footer-botton__copyrigth {
   text-align: center;
   color: gray;
   font-weight: 400;
+  padding: 1.5rem 0;
 }
 
 .footer-botton__copyrigth a {

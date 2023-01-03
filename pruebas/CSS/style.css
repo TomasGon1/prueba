@@ -1,0 +1,31 @@
+.actividad1 {
+  color: #0033ff;
+  font-family: "Rubik Bubbles", cursive;
+  font-size: 12px;
+  padding: 15px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 2rem;
+}
+.caja {
+  display: inline-block;
+}
+.caja--uno {
+  background-color: aqua;
+  border: 15px solid red;
+  padding: 20px;
+  height: 200px;
+  width: 200px;
+  margin: 60px;
+  text-align: center;
+}
+.caja--dos {
+  background-color: blue;
+  border: 15px dotted green;
+  padding: 20px;
+}

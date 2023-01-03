@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuenta - DECOgamer</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1><span>DECO</span>gamer</h1>
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="contactos.html">Contactos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li>
+            <a href="#">Iniciar sesion</a>
+            <ul>
+              <li><a href="cuenta.html">Mi cuenta</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contenedor">
+      <h2>Cuenta</h2>
+      <form action="">
+        <fieldset>
+          <legend>Acceder</legend>
+          <div>
+            <label for="Usuario">Usuario o Email<span>:</span></label>
+            <input type="text" placeholder="Usuario o Email" id="usuario" />
+          </div>
+          <div>
+            <label for="contrasena">Contraseña<span>:</span></label>
+            <input type="password" placeholder="Contraseña" id="contrasena" />
+          </div>
+          <div>
+            <input class="boton" type="submit" value="Acceder" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+    <section class="contenedor">
+      <form action="">
+        <fieldset>
+          <legend>Registrarse</legend>
+          <div>
+            <label for="correo">Dirección Email<span>:</span></label>
+            <input type="email" placeholder="Email" id="correo" />
+          </div>
+          <div>
+            <label for="contrasena2">Contraseña<span>:</span></label>
+            <input type="password" placeholder="Contraseña" id="contrasena2" />
+          </div>
+          <div>
+            Acepta terminos y condiciones
+            <input type="checkbox" name="acepta" value="1" required />
+          </div>
+          <div>
+            <input class="boton" type="submit" value="Registrarse" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+    <footer></footer>
+  </body>
+</html>

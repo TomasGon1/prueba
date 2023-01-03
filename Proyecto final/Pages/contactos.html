@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactos - DECOgamer</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1><span>DECO</span>gamer</h1>
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="contactos.html">Contactos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li>
+            <a href="#">Iniciar sesion</a>
+            <ul>
+              <li><a href="cuenta.html">Mi cuenta</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contenedor">
+      <h2>Consultanos!</h2>
+
+      <form action="">
+        <fieldset>
+          <legend>Contactanos!</legend>
+          <div>
+            <label for="nombre">Usuario<span>:</span></label>
+            <input type="text" placeholder="Tu usuario" id="nombre" />
+          </div>
+          <div>
+            <label for="correo">Correo<span>:</span></label>
+            <input type="email" placeholder="Tu email" id="correo" />
+          </div>
+
+          <div>
+            <label for="mensaje">Mensaje<span>:</span></label>
+            <textarea
+              name="Tu mensaje"
+              id="mensaje"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div>
+            Acepta terminos y condiciones
+            <input type="checkbox" name="acepta" value="1" required />
+          </div>
+          <div>
+            <input class="boton" type="submit" value="Enviar" />
+            <input class="boton" type="reset" value="Cancelar" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+    <section>
+      <h3>Contamos, tambien, con Whatsapp y Telegram, escribinos!</h3>
+      <a class="boton" href="#">
+        <img src="../Imagenes/icons8-whatsapp.svg" alt="Logo de Whatsapp" />
+      </a>
+
+      <a class="boton" href="#">
+        <img
+          src="../Imagenes/icons8-aplicación-telegrama.svg"
+          alt="Logo de Telegram"
+        />
+      </a>
+    </section>
+
+    <footer></footer>
+  </body>
+</html>
