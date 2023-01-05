@@ -25,7 +25,9 @@ svg {
 
 header {
   background-color: #61b644;
-  padding: 0.5rem 0;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
 }
 
 .nav__list {

@@ -6,6 +6,9 @@
 body {
   font-family: "Righteous", cursive;
 }
+header {
+  position: sticky;
+}
 .tittle {
   text-align: center;
   font-size: 3rem;
