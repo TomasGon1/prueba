@@ -11,32 +11,64 @@
       href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
       rel="stylesheet"
     />
-    <title>DProductos - DECOgamer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Productos - DECOgamer</title>
   </head>
   <body>
     <header class="header">
       <h1><span>DECO</span>gamer</h1>
 
       <nav class="navPrincipal">
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="contactos.html">Contactos</a></li>
-          <li><a href="nosotros-faq.html">Nosotros</a></li>
-          <li><a href="productos.html">Productos</a></li>
-          <li>
-            <a href="#">Iniciar sesion</a>
-            <ul>
-              <li><a href="cuenta.html">Mi cuenta</a></li>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="contactos-faq.html">Contactos/FAQ</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="productos.html">Productos</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Iniciar sesion</a>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="cuenta.html">Mi cuenta</a>
+              </li>
             </ul>
           </li>
         </ul>
       </nav>
     </header>
+
+    <!-- footer -->
     <footer>
-      <div class="container">
-        <div class="footer-bottom__copyright">
-          &copy; Copyright 2023 <a href="#">DECOgamer</a>| Creada por
-          <a href="https://github.com/TomasGon1">TomasG.</a>
+      <div class="footer-sm">
+        <div class="container">
+          <div class="footer-sm__icons">
+            <div>Buscanos en las redes!</div>
+            <!-- Iconos redes -->
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-bottom__copyright">
+            &copy; Copyright 2023 <a href="#">DECOgamer</a> | Creada por
+            <a href="https://github.com/TomasGon1">TomasG.</a>
+          </div>
         </div>
       </div>
     </footer>

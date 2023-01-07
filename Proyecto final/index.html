@@ -12,13 +12,20 @@
       href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- logotipo -->
     <title>DECOgamer</title>
   </head>
   <body>
     <header class="header">
       <!-- seccion1 -->
-      <h1 class="tittle"><strong>DECO</strong>gamer</h1>
+      <h1><strong>DECO</strong>gamer</h1>
 
       <nav class="navPrincipal">
         <ul class="nav__list">
@@ -26,17 +33,19 @@
             <a class="nav__link" href="index.html">Inicio</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="Pages/contactos.html">Contactos</a>
+            <a class="nav__link" href="Pages/contactos-faq.html"
+              >Contactos/FAQ</a
+            >
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="Pages/nosotros-faq.html">Nosotros</a>
+            <a class="nav__link" href="Pages/nosotros.html">Nosotros</a>
           </li>
           <li class="nav__item">
             <a class="nav__link" href="Pages/productos.html">Productos</a>
           </li>
           <li class="nav__item">
             <a class="nav__link" href="#">Iniciar sesion</a>
-            <ul class="nav__list-sub">
+            <ul class="nav__list">
               <li class="nav__item">
                 <a class="nav__link" href="Pages/cuenta.html">Mi cuenta</a>
               </li>
@@ -46,32 +55,46 @@
       </nav>
     </header>
 
-    <section class="container">
+    <section class="container__sec">
       <!-- seccion2 -->
-      <h2 class="h2descript">
+      <h2>
         <strong>DECO</strong>gamer la tienda de decoracion gamer mas famosa!
       </h2>
-      <img class="image-setup" src="" alt="Imagen setup gamer" />
-      <p class="paragraph-1">
+      <img
+        class="img-1"
+        src="Imagenes/1366_2000.jpeg"
+        alt="Imagen setup gamer"
+      />
+      <p>
         Dale originalidad a tu setup, decoralo con tus personajes favoritos,
         Funkos, poster y sillas gamer para la mejor comodidad.
       </p>
       <a class="button" href="Pages/productos.html">COMPRA AQUI!</a>
     </section>
-    <section class="container">
+
+    <div class="wave">
+     <img src="Imagenes/wave.svg" alt="">
+    </div>
+
+    <main class="main">
       <!-- seccion3 -->
-      <h3 class="h3descript">
-        <strong>DECO</strong>gamer, siempre del lado del gamer!
-      </h3>
-      <img class="image-setup" src="" alt="Imagen setup gamer 2" />
-      <p class="paragraph-2">
-        Con nuestros productos de la mejor calidad y precio, lleva tu sitio de
-        juego al maximo nivel!! Podes revisar nuestro catalogo y si no encontras
-        lo que buscas contactanos!!
-      </p>
-      <a class="butto" href="Pages/productos.html">COMPRA AQUI!</a>
-      <a class="button" href="Pages/contactos.html">ESCRIBINOS!</a>
-    </section>
+      <div class="container">
+        <h3><strong>DECO</strong>gamer, siempre del lado del gamer!</h3>
+        <img
+          class="img-2"
+          src="Imagenes/81de8fea3bb413d664423ad6ef5dabc8.jpg"
+          alt="Imagen setup gamer 2"
+        />
+        <p>
+          Con nuestros productos de la mejor calidad y precio, lleva tu sitio de
+          juego al maximo nivel!! Podes revisar nuestro catalogo y si no
+          encontras lo que buscas contactanos!!
+        </p>
+        <a class="button" href="Pages/productos.html">COMPRA AQUI!</a>
+        <a class="button" href="Pages/contactos.html">ESCRIBINOS!</a>
+      </div>
+    </main>
+    <!-- footer -->
     <footer>
       <div class="footer-sm">
         <div class="container">
@@ -84,10 +107,12 @@
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="footer-bottom__copyright">
-          &copy; Copyright 2023 <a href="#">DECOgamer</a>| Creada por
-          <a href="https://github.com/TomasGon1">TomasG.</a>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-bottom__copyright">
+            &copy; Copyright 2023 <a href="#">DECOgamer</a> | Creada por
+            <a href="https://github.com/TomasGon1">TomasG.</a>
+          </div>
         </div>
       </div>
     </footer>

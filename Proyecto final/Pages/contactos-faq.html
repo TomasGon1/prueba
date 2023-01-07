@@ -18,7 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Cuenta - DECOgamer</title>
+    <title>contactos-FAQ - DECOgamer</title>
   </head>
   <body>
     <header class="header">
@@ -50,47 +50,93 @@
       </nav>
     </header>
 
-    <section class="container__ac">
-      <h2>Cuenta</h2>
-      <form action="">
-        <fieldset>
-          <legend>Acceder</legend>
-          <div>
-            <label for="Usuario">Usuario o Email<span>:</span></label>
-            <input type="text" placeholder="Usuario o Email" id="usuario" />
-          </div>
-          <div>
-            <label for="contrasena">Contraseña<span>:</span></label>
-            <input type="password" placeholder="Contraseña" id="contrasena" />
-          </div>
-          <div>
-            <input class="button" type="submit" value="Acceder" />
-          </div>
-        </fieldset>
-      </form>
+    <section class="table">
+      <table class="table__sub" border="1" cellpadding="10" cellspacing="5">
+        <tr>
+          <h4>Preguntas Frecuentes</h4>
+        </tr>
+        <tr>
+          <td>¿Tienen local fisico?</td>
+          <td>¿Hacen envios a domicilio?</td>
+          <td>Si un producto viene fallado ¿Hacen cambio o Reembolsos?</td>
+          <td>¿Cuanto tiempo de garantia tienen sus productos?</td>
+        </tr>
+        <tr>
+          <td>
+            Si tenemos local, puedes ver su ubicacion haciendo
+            <a href="nosotros.html">click aqui!</a>
+          </td>
+          <td>
+            Si, una vez comprado el producto, puden elegir via cadeteria, que
+            tendra un costo extra, y correo argentino
+          </td>
+          <td>
+            Si hacemos cambio de producto y si no tenemos el mismo producto te
+            devolvemos el dinero
+          </td>
+          <td>
+            Dependiendo del producto que compres aunque la mayoria tiene de 3 a
+            6 meses de garantia
+          </td>
+        </tr>
+      </table>
+      <div>
+        <p>
+          Si todavia no se aclararon tus dudas, contactanos personalmente aqui
+          abajo con nuestra herramienta de consultas! O mandanos tu consulta por
+          Whatsapp o Telegram!
+        </p>
+      </div>
     </section>
 
-    <section class="container__re">
+    <section class="container__con">
+      <h2>Consultanos!</h2>
+
       <form action="">
         <fieldset>
-          <legend>Registrarse</legend>
+          <legend>Contactanos!</legend>
           <div>
-            <label for="correo">Dirección Email<span>:</span></label>
-            <input type="email" placeholder="Email" id="correo" />
+            <label for="nombre">Usuario<span>:</span></label>
+            <input type="text" placeholder="Tu usuario" id="nombre" />
           </div>
           <div>
-            <label for="contrasena2">Contraseña<span>:</span></label>
-            <input type="password" placeholder="Contraseña" id="contrasena2" />
+            <label for="correo">Correo<span>:</span></label>
+            <input type="email" placeholder="Tu email" id="correo" />
+          </div>
+
+          <div>
+            <label for="mensaje">Mensaje<span>:</span></label>
+            <textarea
+              name="Tu mensaje"
+              id="mensaje"
+              cols="30"
+              rows="10"
+            ></textarea>
           </div>
           <div class="terms">
             Acepta terminos y condiciones
             <input type="checkbox" name="acepta" value="1" required />
           </div>
           <div>
-            <input class="button" type="submit" value="Registrarse" />
+            <input class="button" type="submit" value="Enviar" />
+            <input class="button" type="reset" value="Cancelar" />
           </div>
         </fieldset>
       </form>
+    </section>
+
+    <section class="container__sec-2">
+      <h3>Contamos tambien, con Whatsapp y Telegram, escribinos!</h3>
+      <a class="boton" href="#">
+        <img src="../Imagenes/icons8-whatsapp.svg" alt="Logo de Whatsapp" />
+      </a>
+
+      <a class="boton" href="#">
+        <img
+          src="../Imagenes/icons8-aplicación-telegrama.svg"
+          alt="Logo de Telegram"
+        />
+      </a>
     </section>
 
     <!-- footer -->

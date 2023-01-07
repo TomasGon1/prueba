@@ -1,37 +1,197 @@
-* {
-  margin: 0;
-  padding: 0;
+/* estilo global */
+html {
+  font-size: 70%;
   box-sizing: border-box;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: none;
+}
+
 body {
+  font-size: 16px;
   font-family: "Righteous", cursive;
+  color: black;
+  background-color: #000b76;
 }
-header {
-  position: sticky;
-}
-.tittle {
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
   text-align: center;
+}
+
+.container__sec {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.container__sec-2 {
+  text-align: center;
+}
+
+.container__ac {
+  margin-bottom: 5rem;
+}
+
+.container__re {
+  margin-bottom: 5rem;
+}
+
+.table {
+  margin-bottom: 5rem;
+  background-color: white;
+}
+
+.table__sub{
+  margin-bottom: 3rem;
+}
+
+/* tipografia */
+h1 {
+  font-size: 3.8rem;
+  margin: 0.67rem 0;
+}
+
+h2 {
+  font-size: 2.8rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+legend {
   font-size: 3rem;
-  margin-bottom: 50px;
-  margin-top: 10px;
+}
+
+label {
+  font-size: 2rem;
+}
+
+.terms {
+  font-size: 1.5rem;
+}
+
+th,
+td {
+  font-size: 1.8rem;
+}
+
+/* header */
+.header {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #000b76;
+}
+
+.header h1 {
+  font-weight: lighter;
+}
+
+.header strong {
+  font-weight: bold;
+}
+
+.wave {
+  margin-bottom: -2.5rem;
+}
+
+/* menu */
+.navPrincipal {
+  width: 80%;
+  margin: 2rem auto;
 }
 
 .navPrincipal {
-  margin-bottom: 50px;
+  list-style-type: none;
+  text-align: center;
+  font-size: 0;
 }
 
-.h2descript {
-  margin-bottom: 30px;
+.navPrincipal > .nav__list .nav__item {
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  background-color: #000b76;
 }
 
-.image-setup {
-  margin-bottom: 30px;
+.navPrincipal .nav__item .nav__link {
+  display: block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: black;
 }
 
-.paragraph-1 {
-  margin-bottom: 20px;
+.navPrincipal .nav__item:hover .nav__link {
+  background: black;
+  border-radius: 2rem;
+  color: white;
 }
 
+.navPrincipal .nav__item .nav__list {
+  position: absolute;
+  width: 0;
+  overflow: hidden;
+}
+
+.navPrincipal .nav__item:hover .nav__list {
+  width: 100%;
+  margin: 0 -4rem -4rem -4rem;
+  padding: 0 4rem 4rem 4rem;
+  z-index: 5;
+}
+
+.navPrincipal .nav__item .nav__item {
+  display: block;
+  width: 100%;
+}
+
+.navPrincipal .nav__item:hover .nav__item .nav__link {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  border-top: 1px solid white;
+  background: black;
+  padding: 0.4rem;
+}
+
+.navPrincipal .nav__item .nav__item .nav__link:hover {
+  background: black;
+}
+
+/* main */
+.main {
+  background-color: white;
+  display: block;
+  margin-bottom: 1rem;
+}
+/* estilo del footer */
 footer {
   background-color: black;
   padding-top: 1rem;
@@ -42,19 +202,57 @@ footer {
   color: white;
 }
 
+.footer-sm a {
+  color: white;
+}
+
 .footer-sm a i {
   font-size: 1rem;
   margin-left: 1rem;
 }
 
-.footer-button__copyright {
+.footer-sm__icons {
   text-align: center;
-  color: gray;
-  font-weight: 400;
   padding: 1.5rem 0;
 }
 
-.footer-button__copyright a {
+.footer-bottom {
+  padding: 1.5rem 0;
+}
+
+.footer-bottom__copyright {
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+}
+
+.footer-bottom__copyright a {
   color: gray;
   text-decoration: none;
+}
+
+/* botones */
+.button {
+  border: 1px solid;
+  padding: 10px;
+  background-color: rgb(27, 77, 216);
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Righteous", cursive;
+  border-radius: 50px;
+  z-index: 3;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+/* imagenes */
+.img-1 {
+  max-width: 40%;
+}
+
+.img-2 {
+  max-width: 40%;
 }
