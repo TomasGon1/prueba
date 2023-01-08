@@ -45,8 +45,20 @@ body {
   background-color: white;
 }
 
-.table__sub{
+.table__sub {
   margin-bottom: 3rem;
+}
+
+.card {
+  margin: 2rem;
+  max-width: 360px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px -10px black;
+  display: inline-block;
+}
+
+.card--pro {
+  background: white;
 }
 
 /* tipografia */
@@ -98,6 +110,10 @@ label {
 th,
 td {
   font-size: 1.8rem;
+}
+
+.card__description {
+  margin-bottom: 1.8rem;
 }
 
 /* header */
