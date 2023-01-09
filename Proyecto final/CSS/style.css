@@ -53,7 +53,7 @@ body {
   margin: 2rem;
   max-width: 360px;
   padding: 2rem;
-  box-shadow: 0 10px 30px -10px black;
+  box-shadow: 0 10px 30px -10px aqua;
   display: inline-block;
 }
 
@@ -207,6 +207,7 @@ td {
   display: block;
   margin-bottom: 1rem;
 }
+
 /* estilo del footer */
 footer {
   background-color: black;
