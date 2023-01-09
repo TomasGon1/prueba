@@ -40,6 +40,10 @@ body {
   margin-bottom: 5rem;
 }
 
+.container__nos {
+  margin-bottom: 5rem;
+}
+
 .table {
   margin-bottom: 5rem;
   background-color: white;
@@ -61,21 +65,43 @@ body {
   background: white;
 }
 
+.list__nos {
+  margin-bottom: 2rem;
+}
+
 /* tipografia */
 h1 {
   font-size: 3.8rem;
   margin: 0.67rem 0;
+  color: gray;
 }
 
 h2 {
   font-size: 2.8rem;
-  color: black;
   margin-bottom: 2rem;
+}
+
+.h2__init {
+  color: gray;
+}
+
+.h2__nos {
+  font-size: 2.2rem;
+  color: gray;
 }
 
 h3 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
+}
+
+.h3__color {
+  color: gray;
+}
+
+.h3__color-2 {
+  color: gray;
+  font-size: 2rem;
 }
 
 h4 {
@@ -95,16 +121,23 @@ p {
   margin-bottom: 2rem;
 }
 
+.p1 {
+  color: gray;
+}
+
 legend {
   font-size: 3rem;
+  color: gray;
 }
 
 label {
   font-size: 2rem;
+  color: gray;
 }
 
 .terms {
   font-size: 1.5rem;
+  color: gray;
 }
 
 th,
@@ -114,6 +147,18 @@ td {
 
 .card__description {
   margin-bottom: 1.8rem;
+}
+
+.article__nos {
+  font-size: 2rem;
+  color: gray;
+  margin-bottom: 3rem;
+}
+
+.list__item {
+  font-size: 1.8rem;
+  color: gray;
+  margin-bottom: 1.3rem;
 }
 
 /* header */
@@ -162,7 +207,7 @@ td {
   text-decoration: none;
   font-size: 1.8rem;
   line-height: 2.5rem;
-  color: black;
+  color: grey;
 }
 
 .navPrincipal .nav__item:hover .nav__link {
@@ -252,7 +297,7 @@ footer {
 .button {
   border: 1px solid;
   padding: 10px;
-  background-color: rgb(27, 77, 216);
+  background-color: aqua;
   color: black;
   text-decoration: none;
   text-transform: uppercase;
@@ -272,4 +317,14 @@ footer {
 
 .img-2 {
   max-width: 40%;
+}
+
+.img__wha,
+.img__fa {
+  display: inline-block;
+}
+
+/* tabla */
+.table__item {
+  background-color: gray;
 }
